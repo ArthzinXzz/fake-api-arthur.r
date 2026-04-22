@@ -1,16 +1,40 @@
 {
-    "cursos":[
-        {
-            "id":1,
-            "nome":"Mtec-PI Desenvolvimento de Sistemas", 
-            "disciplinas":["PAM II", "WEB III", "BD"],
-            "carga-horaria": 3600
-        },
-        {
-            "id":1,
-            "nome":"Mtec-N Informática", 
-            "disciplinas":["PAM II", "WEB III", "BD"],
-            "carga-horaria": 3600
-        }
-    ]
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Desenvolvimento de Sistemas",
+      "tipo-de-curso": "Mtec-PI (Integral)",
+      "eixo-tecnologico": "Informação e Comunicação",
+      "disciplinas": ["PAM II", "WEB III", "Banco de Dados"],
+      "duração/semestre": 3,
+      "carga-horaria": 1200
+    },
+    {
+      "id": 2,
+      "nome": "Administração",
+      "tipo_de_curso": "Mtec (Ensino Médio com Técnico)",
+      "eixo_tecnologico": "Gestão e Negócios",
+      "disciplinas": ["Gestão de Pessoas", "Marketing", "Processos Operacionais"],
+      "duração/semestre": 3,
+      "carga-horaria": 1200
+    },
+    {
+      "id": 3,
+      "nome": "Serviços Jurídicos",
+      "tipo_de_curso": "Técnico Modular (Noturno)",
+      "eixo_tecnologico": "Gestão e Negócios",
+      "disciplinas": ["Teoria Geral do Direito", "Direito Civil", "Linguagem Jurídica"],
+      "duração/semestre": 3,
+      "carga-horaria": 1200
+    },
+    {
+      "id": 4,
+      "nome": "Logística",
+      "tipo_de_curso": "Técnico Modular (Noturno)",
+      "eixo_tecnologico": "Gestão e Negócios",
+      "disciplinas": ["Cadeia de Suprimentos", "Custos Logísticos", "Transportes"],
+      "duração/semestre": 3,
+      "carga-horaria": 1200
+    }
+  ]
 }
